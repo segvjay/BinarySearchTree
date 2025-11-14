@@ -78,7 +78,7 @@ public:
                 return temp;
             }
 
-            // Case 3: both left & right child
+            // Node having both left & right child
             else{
                 int minVal = minValue(root->right);
                 root->data = minVal;
@@ -113,3 +113,4 @@ int main(){
     b1.inOrder(b1.root);
     return 0;
 }
+
